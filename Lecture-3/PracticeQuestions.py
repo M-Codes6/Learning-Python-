@@ -66,3 +66,9 @@ print(list)
 
 list = [1, 2, 3, 4, 5]
 print(list.index(3))
+
+# Q9 : Write a program to add a new element at the end of the list ?
+
+list = [1, 2, 3, 4, 5]
+list.append(6)
+print(list)
