@@ -34,3 +34,16 @@ x = int(input("Enter chemistry marks: "))
 marks.update({"chemistry": x})
 
 print(marks)
+
+
+# Q4: Figure out a way to store 9  and 9.0 as a seperate value in the set
+
+set = { 9, "9.0"}
+print(set)
+
+
+values = {
+    ("float", 9.0),
+    ("int", 9)
+}
+print(values)
