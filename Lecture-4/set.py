@@ -22,3 +22,14 @@ print(num)
 
 collection = {"apple", "banana", "cherry"}
 print(collection.pop()) # removes the last element from the set
+
+
+num = {1, 2, 3, 4}
+collection = {"apple", "banana", "cherry"}
+
+print(num.union(collection)) # returns a set containing the union of sets
+
+num = {1, 2, 3, 4, 5, 6}
+num1 = {4, 5, 6, 7, 8, 9}
+
+print(num.intersection(num1)) # returns a common values in set
