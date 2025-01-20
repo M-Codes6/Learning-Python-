@@ -19,3 +19,18 @@ subjects = ["python", "java", "c++", "c", "python", "javascript", "java", "c++"]
 class_rooms = set(subjects)
 print(class_rooms)
 print(len(class_rooms))
+
+
+# Q3 : WAP to enter marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary and add one by one. use subject naem as key and marks as values?
+
+marks = {}
+x = int(input("Enter math marks: "))
+marks.update({"math": x})
+
+x = int(input("Enter physics marks: "))
+marks.update({"physics": x})
+
+x = int(input("Enter chemistry marks: "))
+marks.update({"chemistry": x})
+
+print(marks)
