@@ -10,3 +10,17 @@ def print_length(list) :
 
 print(len(nums))
 print(len(cities))
+
+
+
+
+
+# Q2 : Write a function to print the elements of a list in a single line (list is the parameter)
+
+nums = [1, 3, 4, 7, 6]
+
+def print_el(list) :
+
+    print(*list)  # * unpack the list to print it in single line 
+
+print_el(nums)
