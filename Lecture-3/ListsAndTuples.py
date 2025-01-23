@@ -57,6 +57,8 @@ list.index(2) # index method is used to find the index of the element in the lis
 tup = (1, 2, 3, 4, 5)
 print(type(tup))
 
+tup = ("Mango", "Orange", "Banana", "Grapes")
+print(type(tup))
 
 # Tuple Methods
 
