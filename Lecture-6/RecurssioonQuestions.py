@@ -26,6 +26,3 @@ def print_el(list, idx=0):
 fruits = ["mango", "apple", "banana", "orange"]
 
 print_el(fruits)
-
-
-
