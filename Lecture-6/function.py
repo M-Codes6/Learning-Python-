@@ -26,16 +26,15 @@ print(sum(2, 3))
 
 # Write a function to calculate average of 3 numbers
 
-def cal_avg(a, b, c) :
 
-    sum = a + b + c
+def cal_avg(a, b, c):
+    sum = a + b + c 
 
     avg = sum / 3
 
     return(avg)
 
-print(cal_avg(2, 4, 3))
-
+print(cal_avg(4, 5, 6))
 
 
 
