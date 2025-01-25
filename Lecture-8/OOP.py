@@ -53,11 +53,12 @@ to access variables that belongs to the class.
 
 
 class Student:
-    def __init__(self, fullname):
-        self.name = fullname
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
 
-s1 = Student("M-Codes6")
-print(s1.name)
+s1 = Student("M-Codes6", 80)
+print(s1.name, s1.marks)
 
 
 class Car:
@@ -65,6 +66,65 @@ class Car:
         self.name = newcar
     
 car1 = Car("Punch")
-car2 = Car("Curv")
 print(car1.name)
+
+car2 = Car("Curv")
 print(car2.name)
+
+
+
+# Default constructor
+
+class Subject:
+   def __init__(self):
+       pass
+   
+
+# Parameterized Constructor
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+
+
+
+'''
+Class and Instance(object) Attributes :
+
+class.attr
+obj.attr
+'''
+
+
+# Methods 
+
+''' Methods are functions that belong to objects
+ # Creating class
+    
+ class Student:
+    def __init__(self, name):
+    self.name = name 
+
+    def hello(self):
+    print("hello", self.name)
+s1 = Student("Muzamil")
+s1.hello
+ '''
+
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name 
+        self.marks = marks
+
+    def hello(self):
+        print("hello", self.name)
+    
+    def get_marks(self):
+        return self.marks
+        
+s1 = Student("Muzamil", 80)
+s1.hello()
+print(s1.get_marks())    
