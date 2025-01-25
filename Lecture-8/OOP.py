@@ -128,3 +128,44 @@ class Student:
 s1 = Student("Muzamil", 80)
 s1.hello()
 print(s1.get_marks())    
+
+
+
+
+
+
+# Static Methods 
+
+'''  Methods that don't  use the self parameter(work at class level)
+
+class Student  :
+@static method    #decorator
+def college():
+    print("ABC College")
+
+    
+Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function
+without permanently modifying it ..
+
+''' 
+
+class Student:
+    @staticmethod
+    def college():
+        print("ABC College")
+
+Student.college()
+
+
+
+
+# IMPORTANT
+
+'''
+Abstraction : Hiding the implementation details of a class and only showing the essential 
+            features to the user
+
+            
+Encapsulation : Wrapping data and functions into a single unit(object)
+
+'''
