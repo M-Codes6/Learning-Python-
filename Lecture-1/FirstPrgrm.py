@@ -87,3 +87,10 @@ input ("Enter your password ")
 
 name = input("Enter your name ")
 print("Welcome", name)
+
+
+
+
+a =  int(input("Enter Phone no."))
+b =  input("Enter Password")
+
