@@ -62,7 +62,5 @@ else:
 age = 14
 if (age >= 18):
     print("You are eligible to drive")
-elif(age >= 60):
-    print("You are too old to drive.Plzz be carefull")
 else:
     print("You are not eligible to drive")
