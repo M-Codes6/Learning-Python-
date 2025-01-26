@@ -60,6 +60,8 @@ print(type(tup))
 tup = ("Mango", "Orange", "Banana", "Grapes")
 print(type(tup))
 
+tup.index("Mango")
+
 # Tuple Methods
 
 tup = (1, 2, 3, 4, 5)
