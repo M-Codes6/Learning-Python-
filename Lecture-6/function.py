@@ -1,40 +1,40 @@
 
 # Funtions in Python 
 
-a = int(input("Enter first number:"))
-b = int(input("Enter second number:"))
+# a = int(input("Enter first number:"))
+# b = int(input("Enter second number:"))
 
-def sum(a, b) :
+# def sum(a, b) :
 
-    sum = a + b
+#     sum = a + b
 
-    return(sum)
+#     return(sum)
 
-print(sum(a, b))
+# print(sum(a, b))
 
 # another eg
 
-def cal_sum (a, b) :   
+# def cal_sum (a, b) :   
 
-    sum = a + b
+#     sum = a + b
 
-    return sum 
+#     return sum 
 
-print(sum(2, 3))
+# print(sum(2, 3))
 
 
 
 # Write a function to calculate average of 3 numbers
 
 
-def cal_avg(a, b, c):
-    sum = a + b + c 
+# def cal_avg(a, b, c):
+#     sum = a + b + c 
 
-    avg = sum / 3
+#     avg = sum / 3
 
-    return(avg)
+#     return(avg)
 
-print(cal_avg(4, 5, 6))
+# print(cal_avg(4, 5, 6))
 
 
 
@@ -47,3 +47,9 @@ print(cal_avg(4, 5, 6))
 
 # Default parameters : Assigning a default value to parameters which is used when no argument is passed
 
+def print_my_name():
+    print("My name is") 
+   
+    print("Hellow World")
+     
+print_my_name()
